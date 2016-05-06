@@ -3,7 +3,7 @@
 
 This is a simple breakout board to attach an OBDII-UART adapter board, Fona 808 2G + GPS breakout board, and an SD card to the Arduino 101. 
 
-<img src="osh-preview.png">
+<img src="oshpreview.png">
 
 ### Bill of Materials
 
