@@ -1,0 +1,2330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/wicker/proj/wbox/pothole-project/v2-vehicle-datalogger-shield/hardware/vehicle-datalogger-shield.sch</source>
+    <date>Fri 06 May 2016 03:12:52 PM PDT</date>
+    <tool>Eeschema 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Arduino 101 Vehicle Datalogger Breakout Shield </title>
+        <company>Released under the CERN Open Hardware License v1.2</company>
+        <rev>1.0</rev>
+        <date>2016-05-02</date>
+        <source>vehicle-datalogger-shield.sch</source>
+        <comment number="1" value="Contact: jeh.wicker@gmail.com"/>
+        <comment number="2" value="Author: Jenner Hanni"/>
+        <comment number="3" value="Wickerbox Electronics"/>
+        <comment number="4" value="http://github.com/wickerbox/pothole-project"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Vehicle Datalogger/" tstamps="/57292B6E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>vehicle-datalogger-shield-obd2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>HOLE</value>
+      <footprint>Wickerlib:ARDUINO-MOUNTING-HOLE</footprint>
+      <datasheet>https://www.adafruit.com/products/50</datasheet>
+      <fields>
+        <field name="Package">ARDU-101SHIELD</field>
+        <field name="MF_Name">Arduino</field>
+        <field name="MF_PN">101</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">50</field>
+        <field name="Description">ARDUINO 101</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="ARDUINO-101-SHIELD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57282130</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>HOLE</value>
+      <footprint>Wickerlib:ARDUINO-MOUNTING-HOLE</footprint>
+      <datasheet>https://www.adafruit.com/products/50</datasheet>
+      <fields>
+        <field name="Package">ARDU-101SHIELD</field>
+        <field name="MF_Name">Arduino</field>
+        <field name="MF_PN">101</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">50</field>
+        <field name="Description">ARDUINO 101</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="ARDUINO-101-SHIELD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57290D61</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>HOLE</value>
+      <footprint>Wickerlib:ARDUINO-MOUNTING-HOLE</footprint>
+      <datasheet>https://www.adafruit.com/products/50</datasheet>
+      <fields>
+        <field name="Package">ARDU-101SHIELD</field>
+        <field name="MF_Name">Arduino</field>
+        <field name="MF_PN">101</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">50</field>
+        <field name="Description">ARDUINO 101</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="ARDUINO-101-SHIELD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57290D9E</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>HOLE</value>
+      <footprint>Wickerlib:ARDUINO-MOUNTING-HOLE</footprint>
+      <datasheet>https://www.adafruit.com/products/50</datasheet>
+      <fields>
+        <field name="Package">ARDU-101SHIELD</field>
+        <field name="MF_Name">Arduino</field>
+        <field name="MF_PN">101</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">50</field>
+        <field name="Description">ARDUINO 101</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="ARDUINO-101-SHIELD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57290DDB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ARDUINO-101-SHIELD</value>
+      <footprint>Wickerlib:ARDUINO-101-SHIELD</footprint>
+      <datasheet>https://www.adafruit.com/products/3033</datasheet>
+      <fields>
+        <field name="Package">ARDU-101SHIELD</field>
+        <field name="MF_Name">Arduino</field>
+        <field name="MF_PN">UNO R3</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">50</field>
+        <field name="Description">ARDUINO 101 SHIELD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="ARDUINO-101-SHIELD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572986CB</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN-SD-CARD-PUSH-PULL-R/A-SMD</value>
+      <footprint>Wickerlib:SD_Holder_FullSize</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2041021&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Package">SD_Holder_FullSize</field>
+        <field name="MF_Name">TE Conn</field>
+        <field name="MF_PN">2041021-4</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">A101492CT-ND</field>
+        <field name="Description">CONN SD CARD PUSH-PULL R/A SMD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="CONN-SD-CARD-PUSH-PULL-R/A-SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57284623</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>FONA808-GPS</value>
+      <footprint>Wickerlib:Pin_Header_Straight_1x16</footprint>
+      <datasheet>https://www.adafruit.com/products/2542</datasheet>
+      <fields>
+        <field name="Package">FONA808-GPS</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">FONA808+GPS</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">2542</field>
+        <field name="Description">ADAFRUIT FONA 808 + GPS</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="ADAFRUIT-FONA-808-GPS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57284819</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DB9 TO ENGINE CONTROL UNIT</value>
+      <footprint>Wickerlib:DB9FC</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Package">DB9FC</field>
+        <field name="MF_Name">TE Conn</field>
+        <field name="MF_PN">1734354-1</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">A35107-ND</field>
+        <field name="Description">CONN FEMALE DB9 SERIAL TH 9PIN</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="HEADER-FEMALE-DB9-SERIAL-TH-9PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5729433A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Wickerlib:0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Murata</field>
+        <field name="MF_PN">GRM188R72A104KA35D</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">490-3285-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 0603</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="CAP-CER-0.1UF-100V-X7R-0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5729E5A5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>866</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF8660X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF8660X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P866LCT-ND</field>
+        <field name="Description">RES SMD 866 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-866-1%-1/10W-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572B26C7</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>374</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3740X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF3740X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P374LCT-ND</field>
+        <field name="Description">RES SMD 374 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-374-1%-1/10W-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572B2755</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM317MDT</value>
+      <footprint>Wickerlib:DPAK</footprint>
+      <datasheet>http://www.st.com/web/en/resource/technical/document/datasheet/CD00000549.pdf</datasheet>
+      <fields>
+        <field name="Package">DPAK</field>
+        <field name="MF_Name">STM</field>
+        <field name="MF_PN">LM317MDT-TR</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">497-1574-1-ND</field>
+        <field name="Description">IC REG LDO ADJ 0.5A DPAK</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="IC-VOLT-REG-LDO-ADJ-0.5A-DPAK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572B39F8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>240</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF2400X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF2400X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P240LCT-ND</field>
+        <field name="Description">RES SMD 240 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-240-1%-1/10W-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572B261C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Wickerlib:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&amp;fileName=C_CL21B104KACNNNC.pdf</datasheet>
+      <fields>
+        <field name="Package">0805</field>
+        <field name="MF_Name">Samsung</field>
+        <field name="MF_PN">CL21B105KAFNNNE</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">1276-1066-1-ND</field>
+        <field name="Description">CAP CER 1UF 25V X7R 0805</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="CAP-CER-1UF-25V-X7R-0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57295FB5</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Wickerlib:SOT-23-3</footprint>
+      <datasheet>http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">Fairchild</field>
+        <field name="MF_PN">BSS138</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">BSS138CT-ND</field>
+        <field name="Description">MOSFET N-CH 50V 220MA SOT-23</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="MOSFET-N-50V-220MA-BSS138"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A2C6A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1001X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.00KLCT-ND</field>
+        <field name="Description">RES SMD 1K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-1K-1%-1/10W-0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A998D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CC3000-HUZZAH</value>
+      <footprint>CC3000-BKOUT</footprint>
+      <datasheet>https://www.adafruit.com/products/1469</datasheet>
+      <fields>
+        <field name="Package">CC3000-BKOUT</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">CC3000</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">1469</field>
+        <field name="Description">ADAFRUIT CC3000 WIFI BREAKOUT  V1.1</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="ADAFRUIT-CC3000-WIFI-BREAKOUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A1525</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>RED</value>
+      <footprint>Wickerlib:0603</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Broadcom</field>
+        <field name="MF_PN">HSMS-C191</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">516-3074-1-ND</field>
+        <field name="Description">LED RED DIFFUSED 0603 SMD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RED-0603-SMT-HSMS-C191"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572D41FB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MBRA140</value>
+      <footprint>Wickerlib:SMA_Standard</footprint>
+      <datasheet>http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf</datasheet>
+      <fields>
+        <field name="Package">SMA_Standard</field>
+        <field name="MF_Name">Vishay</field>
+        <field name="MF_PN">VS-MBRA140TRPBF</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">VS-MBRA140TRPBFCT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A MBRA140 SMA</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="DIODE-SCHOTTKY-40V-1A-MBRA140-SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572D1D59</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1.5K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1501X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1501X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.50KLCT-ND</field>
+        <field name="Description">RES SMD 1.5K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-1.5K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>57293A7A</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>ZXMP6A13FTA</value>
+      <footprint>Wickerlib:SOT-23-3</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ZXMP6A13F.pdf</datasheet>
+      <fields>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">Diodes Inc</field>
+        <field name="MF_PN">ZXMP6A13FTA</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">ZXMP6A13FCT-ND</field>
+        <field name="Description">MOSFET P-CH 60V 0.9A SOT23-3</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="ZXMP6A13FTA"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>57293AFE</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Wickerlib:SOT-23-3</footprint>
+      <datasheet>http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">Fairchild</field>
+        <field name="MF_PN">BSS138</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">BSS138CT-ND</field>
+        <field name="Description">MOSFET N-CH 50V 220MA SOT-23</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="MOSFET-N-50V-220MA-BSS138"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>57293B72</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAS16</value>
+      <footprint>Wickerlib:SOD-323</footprint>
+      <datasheet>http://www.vishay.com/docs/85752/bas16ws.pdf</datasheet>
+      <fields>
+        <field name="Package">SOD-323</field>
+        <field name="MF_Name">Vishay</field>
+        <field name="MF_PN">BAS16WS-E3-08</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">BAS16WS-E3-08CT-ND</field>
+        <field name="Description">DIODE GEN PURP 75V 250MA BAS16 SOD323</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="DIODE-GEN-PURP-75V-250MA-BAS16-SOD323"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>57297861</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572978F5</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BAS16</value>
+      <footprint>Wickerlib:SOD-323</footprint>
+      <datasheet>http://www.vishay.com/docs/85752/bas16ws.pdf</datasheet>
+      <fields>
+        <field name="Package">SOD-323</field>
+        <field name="MF_Name">Vishay</field>
+        <field name="MF_PN">BAS16WS-E3-08</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">BAS16WS-E3-08CT-ND</field>
+        <field name="Description">DIODE GEN PURP 75V 250MA BAS16 SOD323</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="DIODE-GEN-PURP-75V-250MA-BAS16-SOD323"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572A4262</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572A6162</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>MMBT2222</value>
+      <footprint>Wickerlib:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">ON Semi</field>
+        <field name="MF_PN">MMBT2222ALT1G</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">MMBT2222ALT1GOSCT-ND</field>
+        <field name="Description">TRANS NPN 40V 0.6A SOT23</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="BJT-NPN-40V-0.6A-MMBT2222"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572A6291</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1001X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.00KLCT-ND</field>
+        <field name="Description">RES SMD 1K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-1K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572A62F1</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1.2K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1201X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1201X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.20KLCT-ND</field>
+        <field name="Description">RES SMD 1.2K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-1.2K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572AD0D4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4.7K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF4701X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P4.70KLCT-ND</field>
+        <field name="Description">RES SMD 4.7K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-4.7K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572AD176</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572AD3C5</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>RES-10K-1%-1/10W-0402</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572AD6D7</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572AE7F4</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572AE8A3</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>RES-10K-1%-1/10W-0402</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572AEE95</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT2222</value>
+      <footprint>Wickerlib:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">ON Semi</field>
+        <field name="MF_PN">MMBT2222ALT1G</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">MMBT2222ALT1GOSCT-ND</field>
+        <field name="Description">TRANS NPN 40V 0.6A SOT23</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="BJT-NPN-40V-0.6A-MMBT2222"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B0FEC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>510 1/2W</value>
+      <footprint>2010</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf</datasheet>
+      <fields>
+        <field name="Package">2010</field>
+        <field name="MF_Name">Rohm Semi</field>
+        <field name="MF_PN">MCR50JZHJ511</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">RHM510BGCT-ND</field>
+        <field name="Description">RES SMD 510 OHM 5% 1/2W 2010</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-510-5%-1/2W-2010"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B2F2A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1001X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.00KLCT-ND</field>
+        <field name="Description">RES SMD 1K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-1K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B2FA6</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT2222</value>
+      <footprint>Wickerlib:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">ON Semi</field>
+        <field name="MF_PN">MMBT2222ALT1G</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">MMBT2222ALT1GOSCT-ND</field>
+        <field name="Description">TRANS NPN 40V 0.6A SOT23</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="BJT-NPN-40V-0.6A-MMBT2222"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B3D83</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>510 1/2W</value>
+      <footprint>2010</footprint>
+      <datasheet>http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf</datasheet>
+      <fields>
+        <field name="Package">2010</field>
+        <field name="MF_Name">Rohm Semi</field>
+        <field name="MF_PN">MCR50JZHJ511</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">RHM510BGCT-ND</field>
+        <field name="Description">RES SMD 510 OHM 5% 1/2W 2010</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-510-5%-1/2W-2010"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B3D90</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1001X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.00KLCT-ND</field>
+        <field name="Description">RES SMD 1K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-1K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B3D9D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B5012</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B50FD</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B5189</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572B531E</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>MCP2551</value>
+      <footprint>Wickerlib:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011797</datasheet>
+      <fields>
+        <field name="Package">SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+        <field name="MF_Name">Microchip</field>
+        <field name="MF_PN">MCP2551-I/SN</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">MCP2551-I/SN-ND</field>
+        <field name="Description">IC TRANSCEIVER CAN HI-SPD 8-SOIC</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="IC-TRANSCEIVER-CAN-MCP2551-SOIC8"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572BD846</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>4.7K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF4701X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P4.70KLCT-ND</field>
+        <field name="Description">RES SMD 4.7K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-4.7K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572C4729</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572DE549</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>62K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF6202X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF6202X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P62.0KLCT-ND</field>
+        <field name="Description">RES SMD 62K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-62K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572E0401</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-10K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572E3C79</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>330</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3300X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF3300X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P330LCT-ND</field>
+        <field name="Description">RES SMD 330 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-330-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572F20B4</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>330</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3300X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF3300X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P330LCT-ND</field>
+        <field name="Description">RES SMD 330 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-330-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572F269D</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>330</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3300X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF3300X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P330LCT-ND</field>
+        <field name="Description">RES SMD 330 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-330-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572F2748</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>330</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3300X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF3300X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P330LCT-ND</field>
+        <field name="Description">RES SMD 330 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-330-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572F288A</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>4.7K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF4701X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P4.70KLCT-ND</field>
+        <field name="Description">RES SMD 4.7K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-4.7K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572F2909</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1.5K</value>
+      <footprint>Wickerlib:0402</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1501X+7+WW</datasheet>
+      <fields>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1501X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.50KLCT-ND</field>
+        <field name="Description">RES SMD 1.5K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="RES-1.5K-1%-1/10W-0402"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572F4D7B</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>RED</value>
+      <footprint>Wickerlib:0603</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Broadcom</field>
+        <field name="MF_PN">HSMS-C191</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">516-3074-1-ND</field>
+        <field name="Description">LED RED DIFFUSED 0603 SMD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RED-0603-SMT-HSMS-C191"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572FF414</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>YEL</value>
+      <footprint>Wickerlib:0603</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Broadcom</field>
+        <field name="MF_PN">HSMS-C191</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">516-3074-1-ND</field>
+        <field name="Description">LED RED DIFFUSED 0603 SMD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RED-0603-SMT-HSMS-C191"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572FFD5D</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>RED</value>
+      <footprint>Wickerlib:0603</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Broadcom</field>
+        <field name="MF_PN">HSMS-C191</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">516-3074-1-ND</field>
+        <field name="Description">LED RED DIFFUSED 0603 SMD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RED-0603-SMT-HSMS-C191"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572FFE12</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>YEL</value>
+      <footprint>Wickerlib:0603</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Broadcom</field>
+        <field name="MF_PN">HSMS-C191</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">516-3074-1-ND</field>
+        <field name="Description">LED RED DIFFUSED 0603 SMD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RED-0603-SMT-HSMS-C191"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572FFEC8</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>STN1110</value>
+      <footprint>Wickerlib:QFN-32-1EP_5x5mm_Pitch0.5mm</footprint>
+      <datasheet>https://www.scantool.net/development-tools/obd-chips/stn1110/</datasheet>
+      <fields>
+        <field name="Package">UNDEFINED</field>
+        <field name="MF_Name">ScanTool</field>
+        <field name="MF_PN">STN1110-QFN28</field>
+        <field name="S1_Name">ScanTool</field>
+        <field name="S1_PN">365121</field>
+        <field name="Description">STN1110 OBD-II TO UART IC</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="IC-OBD-II-TO-UART-STN1110-QFN28"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572DDE3B</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>16MHz 18pF</value>
+      <footprint>Wickerlib:CRYSTAL-CTS-4SMD</footprint>
+      <datasheet>http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf</datasheet>
+      <fields>
+        <field name="Package">CRYSTAL-CTS-4SMD</field>
+        <field name="MF_Name">CTS</field>
+        <field name="MF_PN">406I35D16M00000</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">CTX1206CT-ND</field>
+        <field name="Description">16MHz ±30ppm Crystal 18pF 40 Ohm 4SMD NOLEAD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="CRYSTAL-16MHZ-18PF-40OHM-CTS-4SMD"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>5729CCDE</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LM339PWR</value>
+      <footprint>Wickerlib:UNDEFINED</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm139a.pdf</datasheet>
+      <fields>
+        <field name="Package">UNDEFINED</field>
+        <field name="MF_Name">TI</field>
+        <field name="MF_PN">LM339PWR</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">296-6607-1-ND</field>
+        <field name="Description">IC QUAD DIFF COMPARATOR 14-TSSOP</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="IC-DIFF-COMPARE-LM339PWR-TSSOP14"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572CAD84</tstamp>
+    </comp>
+    <comp ref="W2">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="wickerlib" part="TEST_1P"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572E4209</tstamp>
+    </comp>
+    <comp ref="W1">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="wickerlib" part="TEST_1P"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572E4B0B</tstamp>
+    </comp>
+    <comp ref="W3">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="wickerlib" part="TEST_1P"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572E7A90</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Wickerlib:0603</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Murata</field>
+        <field name="MF_PN">GRM188R72A104KA35D</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">490-3285-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 0603</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <libsource lib="wickerlib" part="CAP-CER-0.1UF-100V-X7R-0603"/>
+      <sheetpath names="/Vehicle Datalogger/" tstamps="/57292B6E/"/>
+      <tstamp>572D514F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="wickerlib" part="ADAFRUIT-CC3000-WIFI-BREAKOUT">
+      <description>ADAFRUIT CC3000 WIFI BREAKOUT  V1.1</description>
+      <docs>https://www.adafruit.com/product/1469</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ADAFRUIT-CC3000-WIFI-BREAKOUT</field>
+        <field name="Footprint">CC3000-BKOUT</field>
+        <field name="Datasheet">https://www.adafruit.com/products/1469</field>
+        <field name="Package">CC3000-BKOUT</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">CC3000</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">1469</field>
+        <field name="Description">ADAFRUIT CC3000 WIFI BREAKOUT  V1.1</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="CLK" type="BiDi"/>
+        <pin num="5" name="MISO" type="BiDi"/>
+        <pin num="6" name="MOSI" type="BiDi"/>
+        <pin num="7" name="CS" type="BiDi"/>
+        <pin num="8" name="VBEN" type="BiDi"/>
+        <pin num="9" name="IRQ" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="ADAFRUIT-FONA-808-GPS">
+      <description>ADAFRUIT FONA 808 + GPS</description>
+      <docs>https://www.adafruit.com/products/2542</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ADAFRUIT-FONA-808-GPS</field>
+        <field name="Footprint">FONA808-GPS</field>
+        <field name="Datasheet">https://www.adafruit.com/products/2542</field>
+        <field name="Package">FONA808-GPS</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">FONA808+GPS</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">2542</field>
+        <field name="Description">ADAFRUIT FONA 808 + GPS</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5V" type="power_in"/>
+        <pin num="2" name="VBAT" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Vio" type="power_in"/>
+        <pin num="5" name="RST" type="input"/>
+        <pin num="6" name="RX" type="input"/>
+        <pin num="7" name="TX" type="output"/>
+        <pin num="8" name="RTS" type="BiDi"/>
+        <pin num="9" name="KEY" type="input"/>
+        <pin num="10" name="RI" type="BiDi"/>
+        <pin num="11" name="PS" type="BiDi"/>
+        <pin num="12" name="NS" type="output"/>
+        <pin num="13" name="MIC+" type="BiDi"/>
+        <pin num="14" name="MIC-" type="BiDi"/>
+        <pin num="15" name="SPK+" type="BiDi"/>
+        <pin num="16" name="SPK-" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="ARDUINO-101-SHIELD">
+      <description>ARDUINO 101 SHIELD</description>
+      <docs>https://www.adafruit.com/product/3033</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ARDUINO-101-SHIELD</field>
+        <field name="Footprint">ARDU-101SHIELD</field>
+        <field name="Datasheet">https://www.adafruit.com/products/3033</field>
+        <field name="Package">ARDU-101SHIELD</field>
+        <field name="MF_Name">Arduino</field>
+        <field name="MF_PN">UNO R3</field>
+        <field name="S1_Name">Adafruit</field>
+        <field name="S1_PN">50</field>
+        <field name="Description">ARDUINO 101 SHIELD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="NotConnected"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCK" type="power_in"/>
+        <pin num="4" name="MOSI" type="power_in"/>
+        <pin num="5" name="RESET" type="power_in"/>
+        <pin num="5V" name="5V" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="3V3" name="3.3V" type="power_in"/>
+        <pin num="A0" name="A0" type="BiDi"/>
+        <pin num="A1" name="A1" type="BiDi"/>
+        <pin num="A2" name="A2" type="BiDi"/>
+        <pin num="A3" name="A3" type="BiDi"/>
+        <pin num="A4" name="A4" type="BiDi"/>
+        <pin num="A5" name="A5" type="BiDi"/>
+        <pin num="AREF" name="AREF" type="power_in"/>
+        <pin num="D0" name="D0" type="BiDi"/>
+        <pin num="D1" name="D1" type="BiDi"/>
+        <pin num="D2" name="D2" type="BiDi"/>
+        <pin num="D3" name="D3" type="BiDi"/>
+        <pin num="D4" name="D4" type="BiDi"/>
+        <pin num="D5" name="D5" type="BiDi"/>
+        <pin num="D6" name="D6" type="BiDi"/>
+        <pin num="D7" name="D7" type="BiDi"/>
+        <pin num="D8" name="D8" type="BiDi"/>
+        <pin num="D9" name="D9" type="BiDi"/>
+        <pin num="D10" name="D10" type="BiDi"/>
+        <pin num="D11" name="D11" type="BiDi"/>
+        <pin num="D12" name="D12" type="BiDi"/>
+        <pin num="D13" name="D13" type="BiDi"/>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND" type="power_in"/>
+        <pin num="GND3" name="GND" type="power_in"/>
+        <pin num="IO" name="IOREF" type="power_in"/>
+        <pin num="NC" name="NC" type="NotConnected"/>
+        <pin num="RST" name="RESET" type="BiDi"/>
+        <pin num="SCL" name="SCL" type="BiDi"/>
+        <pin num="SDA" name="SDA" type="BiDi"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="BJT-NPN-40V-0.6A-MMBT2222">
+      <description>TRANS NPN 40V 0.6A SOT23</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BJT-NPN-40V-0.6A-MMBT2222</field>
+        <field name="Footprint">SOT23-3</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF</field>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">ON Semi</field>
+        <field name="MF_PN">MMBT2222ALT1G</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">MMBT2222ALT1GOSCT-ND</field>
+        <field name="Description">TRANS NPN 40V 0.6A SOT23</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="CAP-CER-0.1UF-100V-X7R-0603">
+      <description>CAP CER 0.1UF 100V X7R 0603</description>
+      <docs>http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-CER-0.1UF-100V-X7R-0603</field>
+        <field name="Footprint">0603</field>
+        <field name="Datasheet">http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf</field>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Murata</field>
+        <field name="MF_PN">GRM188R72A104KA35D</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">490-3285-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 100V X7R 0603</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="CAP-CER-1UF-25V-X7R-0805">
+      <description>CAP CER 1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&amp;fileName=C_CL21B104KACNNNC.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-CER-1UF-25V-X7R-0805</field>
+        <field name="Footprint">0805</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&amp;fileName=C_CL21B104KACNNNC.pdf</field>
+        <field name="Package">0805</field>
+        <field name="MF_Name">Samsung</field>
+        <field name="MF_PN">CL21B105KAFNNNE</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">1276-1066-1-ND</field>
+        <field name="Description">CAP CER 1UF 25V X7R 0805</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="CONN-SD-CARD-PUSH-PULL-R/A-SMD">
+      <description>CONN SD CARD PUSH-PULL R/A SMD</description>
+      <docs>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2041021&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN-SD-CARD-PUSH-PULL-R/A-SMD</field>
+        <field name="Footprint">SD-2041021-4</field>
+        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=2041021&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Package">SD_Holder_FullSize</field>
+        <field name="MF_Name">TE Conn</field>
+        <field name="MF_PN">2041021-4</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">A101492CT-ND</field>
+        <field name="Description">CONN SD CARD PUSH-PULL R/A SMD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CS" type="BiDi"/>
+        <pin num="2" name="DATA_IN" type="BiDi"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="SCLK" type="BiDi"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DATA_OUT" type="BiDi"/>
+        <pin num="8" name="DAT1" type="NotConnected"/>
+        <pin num="9" name="DAT2" type="NotConnected"/>
+        <pin num="10" name="CARD_DETECT" type="NotConnected"/>
+        <pin num="11" name="COMMON_SW" type="NotConnected"/>
+        <pin num="12" name="WRITE_PROTECT" type="NotConnected"/>
+        <pin num="13" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="CRYSTAL-16MHZ-18PF-40OHM-CTS-4SMD">
+      <description>16MHz ±30ppm Crystal 18pF 40 Ohm 4SMD NOLEAD</description>
+      <docs>http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf</docs>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL-16MHZ-18PF-40OHM-CTS-4SMD</field>
+        <field name="Footprint">CTS-4SMD</field>
+        <field name="Datasheet">http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf</field>
+        <field name="Package">CRYSTAL-CTS-4SMD</field>
+        <field name="MF_Name">CTS</field>
+        <field name="MF_PN">406I35D16M00000</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">CTX1206CT-ND</field>
+        <field name="Description">16MHz ±30ppm Crystal 18pF 40 Ohm 4SMD NOLEAD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="DIODE-GEN-PURP-75V-250MA-BAS16-SOD323">
+      <description>DIODE GEN PURP 75V 250MA BAS16 SOD323</description>
+      <docs>http://www.vishay.com/docs/85752/bas16ws.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-GEN-PURP-75V-250MA-BAS16-SOD323</field>
+        <field name="Footprint">SOD323</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85752/bas16ws.pdf</field>
+        <field name="Package">SOD-323</field>
+        <field name="MF_Name">Vishay</field>
+        <field name="MF_PN">BAS16WS-E3-08</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">BAS16WS-E3-08CT-ND</field>
+        <field name="Description">DIODE GEN PURP 75V 250MA BAS16 SOD323</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="DIODE-SCHOTTKY-40V-1A-MBRA140-SMA">
+      <description>DIODE SCHOTTKY 40V 1A MBRA140 SMA</description>
+      <docs>http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-SCHOTTKY-40V-1A-MBRA140-SMA</field>
+        <field name="Footprint">SMA</field>
+        <field name="Datasheet">http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf</field>
+        <field name="Package">SMA_Standard</field>
+        <field name="MF_Name">Vishay</field>
+        <field name="MF_PN">VS-MBRA140TRPBF</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">VS-MBRA140TRPBFCT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A MBRA140 SMA</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="HEADER-FEMALE-DB9-SERIAL-TH-9PIN">
+      <description>CONN FEMALE DB9 SERIAL TH 9PIN</description>
+      <docs>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER-FEMALE-DB9-SERIAL-TH-9PIN</field>
+        <field name="Footprint">DB9-FEMALE</field>
+        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734354&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Package">DB9FC</field>
+        <field name="MF_Name">TE Conn</field>
+        <field name="MF_PN">1734354-1</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">A35107-ND</field>
+        <field name="Description">CONN FEMALE DB9 SERIAL TH 9PIN</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="IC-DIFF-COMPARE-LM339PWR-TSSOP14">
+      <description>IC QUAD DIFF COMPARATOR 14-TSSOP</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm139a.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-DIFF-COMPARE-LM339PWR-TSSOP14</field>
+        <field name="Footprint">TSSOP14</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm139a.pdf</field>
+        <field name="Package">UNDEFINED</field>
+        <field name="MF_Name">TI</field>
+        <field name="MF_PN">LM339PWR</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">296-6607-1-ND</field>
+        <field name="Description">IC QUAD DIFF COMPARATOR 14-TSSOP</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="openCol"/>
+        <pin num="3" name="+" type="openCol"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="+" type="input"/>
+        <pin num="8" name="-" type="input"/>
+        <pin num="9" name="+" type="input"/>
+        <pin num="10" name="-" type="input"/>
+        <pin num="11" name="+" type="input"/>
+        <pin num="12" name="-" type="openCol"/>
+        <pin num="13" name="~" type="openCol"/>
+        <pin num="14" name="~" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="IC-OBD-II-TO-UART-STN1110-QFN28">
+      <description>STN1110 OBD-II TO UART IC</description>
+      <docs>https://www.scantool.net/development-tools/obd-chips/stn1110/</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-OBD-II-TO-UART-STN1110-QFN28</field>
+        <field name="Footprint">QFN28</field>
+        <field name="Datasheet">https://www.scantool.net/development-tools/obd-chips/stn1110/</field>
+        <field name="Package">UNDEFINED</field>
+        <field name="MF_Name">ScanTool</field>
+        <field name="MF_PN">STN1110-QFN28</field>
+        <field name="S1_Name">ScanTool</field>
+        <field name="S1_PN">365121</field>
+        <field name="Description">STN1110 OBD-II TO UART IC</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~VPW_RX" type="input"/>
+        <pin num="2" name="PWM_RX" type="input"/>
+        <pin num="3" name="J1850BUS+_TX" type="output"/>
+        <pin num="4" name="J1850BUS-_TX" type="output"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="OSC1" type="BiDi"/>
+        <pin num="7" name="OSC2" type="BiDi"/>
+        <pin num="8" name="~ISO_RX" type="input"/>
+        <pin num="9" name="SLEEP" type="input"/>
+        <pin num="10" name="VDD" type="power_in"/>
+        <pin num="11" name="CAN_RX" type="input"/>
+        <pin num="12" name="CAN_TX" type="output"/>
+        <pin num="13" name="UART_RX" type="output"/>
+        <pin num="14" name="UART_TX" type="output"/>
+        <pin num="15" name="~PWR_CTRL" type="output"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="18" name="~OBD_TX_LED~/~RST_NUM" type="output"/>
+        <pin num="19" name="~OBD_RX_LED~/~INT" type="output"/>
+        <pin num="20" name="~UART_TX_LED" type="output"/>
+        <pin num="21" name="~UART_RX_LED" type="output"/>
+        <pin num="22" name="~ISO_K_TX" type="output"/>
+        <pin num="23" name="~ISO_L_TX" type="output"/>
+        <pin num="24" name="AVSS" type="power_in"/>
+        <pin num="25" name="AVDD" type="power_in"/>
+        <pin num="26" name="RESET" type="BiDi"/>
+        <pin num="27" name="ANALOG_IN" type="power_in"/>
+        <pin num="28" name="PWM/~VPW" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="IC-TRANSCEIVER-CAN-MCP2551-SOIC8">
+      <description>IC TRANSCEIVER CAN HI-SPD 8-SOIC</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011797</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-TRANSCEIVER-CAN-MCP2551-SOIC8</field>
+        <field name="Footprint">SOIC8</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011797</field>
+        <field name="Package">SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+        <field name="MF_Name">Microchip</field>
+        <field name="MF_PN">MCP2551-I/SN</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">MCP2551-I/SN-ND</field>
+        <field name="Description">IC TRANSCEIVER CAN HI-SPD 8-SOIC</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TIN" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="VCC" type="BiDi"/>
+        <pin num="4" name="ROUT" type="BiDi"/>
+        <pin num="5" name="VREF" type="BiDi"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="RS" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="IC-VOLT-REG-LDO-ADJ-0.5A-DPAK">
+      <description>IC REG LDO ADJ 0.5A DPAK</description>
+      <docs>http://www.st.com/web/en/resource/technical/document/datasheet/CD00000549.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-VOLT-REG-LDO-ADJ-0.5A-DPAK</field>
+        <field name="Footprint">DPAK</field>
+        <field name="Datasheet">http://www.st.com/web/en/resource/technical/document/datasheet/CD00000549.pdf</field>
+        <field name="Package">DPAK</field>
+        <field name="MF_Name">STM</field>
+        <field name="MF_PN">LM317MDT-TR</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">497-1574-1-ND</field>
+        <field name="Description">IC REG LDO ADJ 0.5A DPAK</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="LED-RED-0603-SMT-HSMS-C191">
+      <description>LED RED DIFFUSED 0603 SMD</description>
+      <docs>http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED-RED-0603-SMT-HSMS-C191</field>
+        <field name="Footprint">0603</field>
+        <field name="Datasheet">http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf</field>
+        <field name="Package">0603</field>
+        <field name="MF_Name">Broadcom</field>
+        <field name="MF_PN">HSMS-C191</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">516-3074-1-ND</field>
+        <field name="Description">LED RED DIFFUSED 0603 SMD</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="MOSFET-N-50V-220MA-BSS138">
+      <description>MOSFET N-CH 50V 220MA SOT-23</description>
+      <docs>http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOSFET-N-50V-220MA-BSS138</field>
+        <field name="Footprint">SOT23-3</field>
+        <field name="Datasheet">http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</field>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">Fairchild</field>
+        <field name="MF_PN">BSS138</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">BSS138CT-ND</field>
+        <field name="Description">MOSFET N-CH 50V 220MA SOT-23</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-1.2K-1%-1/10W-0402">
+      <description>RES SMD 1.2K OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1201X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-1.2K-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1201X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1201X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.20KLCT-ND</field>
+        <field name="Description">RES SMD 1.2K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-1.5K-1%-1/10W-0402">
+      <description>RES SMD 1.5K OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1501X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-1.5K-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1501X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1501X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.50KLCT-ND</field>
+        <field name="Description">RES SMD 1.5K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-10K-1%-1/10W-0402">
+      <description>RES SMD 10K OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-10K-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1002X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P10.0KLCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-1K-1%-1/10W-0402">
+      <description>RES SMD 1K OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-1K-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF1001X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P1.00KLCT-ND</field>
+        <field name="Description">RES SMD 1K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-240-1%-1/10W-0402">
+      <description>RES SMD 240 OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF2400X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-240-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF2400X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF2400X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P240LCT-ND</field>
+        <field name="Description">RES SMD 240 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-330-1%-1/10W-0402">
+      <description>RES SMD 330 OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3300X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-330-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3300X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF3300X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P330LCT-ND</field>
+        <field name="Description">RES SMD 330 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-374-1%-1/10W-0402">
+      <description>RES SMD 374 OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3740X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-374-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3740X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF3740X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P374LCT-ND</field>
+        <field name="Description">RES SMD 374 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-4.7K-1%-1/10W-0402">
+      <description>RES SMD 4.7K OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-4.7K-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF4701X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P4.70KLCT-ND</field>
+        <field name="Description">RES SMD 4.7K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-510-5%-1/2W-2010">
+      <description>RES SMD 510 OHM 5% 1/2W 2010</description>
+      <docs>http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-510-5%-1/2W-2010</field>
+        <field name="Footprint">2010</field>
+        <field name="Datasheet">http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf</field>
+        <field name="Package">2010</field>
+        <field name="MF_Name">Rohm Semi</field>
+        <field name="MF_PN">MCR50JZHJ511</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">RHM510BGCT-ND</field>
+        <field name="Description">RES SMD 510 OHM 5% 1/2W 2010</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-62K-1%-1/10W-0402">
+      <description>RES SMD 62K OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF6202X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-62K-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF6202X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF6202X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P62.0KLCT-ND</field>
+        <field name="Description">RES SMD 62K OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="RES-866-1%-1/10W-0402">
+      <description>RES SMD 866 OHM 1% 1/10W 0402</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF8660X+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-866-1%-1/10W-0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF8660X+7+WW</field>
+        <field name="Package">0402</field>
+        <field name="MF_Name">Panasonic</field>
+        <field name="MF_PN">ERJ-2RKF8660X</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">P866LCT-ND</field>
+        <field name="Description">RES SMD 866 OHM 1% 1/10W 0402</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="ZXMP6A13FTA">
+      <description>MOSFET P-CH 60V 0.9A SOT23-3</description>
+      <docs>http://www.diodes.com/_files/datasheets/ZXMP6A13F.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">ZXMP6A13FTA</field>
+        <field name="Footprint">SOT23-3</field>
+        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ZXMP6A13F.pdf</field>
+        <field name="Package">SOT23-3</field>
+        <field name="MF_Name">Diodes Inc</field>
+        <field name="MF_PN">ZXMP6A13FTA</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">ZXMP6A13FCT-ND</field>
+        <field name="Description">MOSFET P-CH 60V 0.9A SOT23-3</field>
+        <field name="Verified">Not Verified</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="wickerlib">
+      <uri>/home/wicker/proj/wbox/wickerlib/kicad-libraries/wickerlib.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="OBD2_PWM/~VPN">
+      <node ref="Q1" pin="G"/>
+      <node ref="U8" pin="28"/>
+    </net>
+    <net code="2" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="3" name="Net-(Q1-PadD)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="D"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="J3" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="U2" pin="5V"/>
+      <node ref="U9" pin="3"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="U2" pin="AREF"/>
+      <node ref="J4" pin="4"/>
+      <node ref="U8" pin="25"/>
+      <node ref="U8" pin="10"/>
+      <node ref="J3" pin="4"/>
+      <node ref="LED3" pin="2"/>
+      <node ref="U2" pin="3V3"/>
+      <node ref="LED4" pin="2"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(U2-PadD1)">
+      <node ref="U2" pin="D1"/>
+    </net>
+    <net code="7" name="Net-(U2-PadD0)">
+      <node ref="U2" pin="D0"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="R2" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="J4" pin="6"/>
+      <node ref="R26" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="Q3" pin="S"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="GND2"/>
+      <node ref="U2" pin="GND1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="U7" pin="12"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U8" pin="16"/>
+      <node ref="J4" pin="13"/>
+      <node ref="J3" pin="3"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="U8" pin="24"/>
+      <node ref="U2" pin="GND3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="9" name="Net-(U2-PadA5)">
+      <node ref="U2" pin="A5"/>
+    </net>
+    <net code="10" name="/D11(MOSI)">
+      <node ref="U2" pin="D11"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="13" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="14" name="/D4(WIFI_VBEN)">
+      <node ref="U2" pin="D4"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="15" name="/A4(WIFI_CS)">
+      <node ref="U2" pin="A4"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="16" name="/A0(WIFI_IRQ)">
+      <node ref="U2" pin="A0"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="17" name="/D12(MISO)">
+      <node ref="J4" pin="7"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U2" pin="D12"/>
+    </net>
+    <net code="18" name="/D13(SCLK)">
+      <node ref="U2" pin="D13"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="19" name="Net-(U2-PadSCL)">
+      <node ref="U2" pin="SCL"/>
+    </net>
+    <net code="20" name="Net-(U2-PadSDA)">
+      <node ref="U2" pin="SDA"/>
+    </net>
+    <net code="21" name="L_LINE">
+      <node ref="R21" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="22" name="VBAT">
+      <node ref="R12" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="23" name="J1850BUS-">
+      <node ref="R23" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="24" name="J1850BUS+">
+      <node ref="R14" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="25" name="CAN_LO">
+      <node ref="J1" pin="5"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="26" name="K_LINE">
+      <node ref="Q2" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="27" name="CAN_HI">
+      <node ref="U9" pin="7"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="28" name="VIN">
+      <node ref="Q4" pin="D"/>
+      <node ref="U2" pin="VIN"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(J4-Pad9)">
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="32" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="33" name="Net-(J4-Pad12)">
+      <node ref="J4" pin="12"/>
+    </net>
+    <net code="34" name="Net-(J4-Pad11)">
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="35" name="Net-(J4-Pad10)">
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="36" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="37" name="/D6(FONA_NS)">
+      <node ref="J3" pin="12"/>
+      <node ref="U2" pin="D6"/>
+    </net>
+    <net code="38" name="/D5(FONA_RST)">
+      <node ref="U2" pin="D5"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="39" name="/A3(FONA_RX)">
+      <node ref="U2" pin="A3"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="40" name="/A2(FONA_TX)">
+      <node ref="U2" pin="A2"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="41" name="/A1(FONA_KEY)">
+      <node ref="U2" pin="A1"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="42" name="/D7(FONA_PS)">
+      <node ref="J3" pin="11"/>
+      <node ref="U2" pin="D7"/>
+    </net>
+    <net code="43" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="44" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="45" name="Net-(U2-PadRST)">
+      <node ref="U2" pin="RST"/>
+    </net>
+    <net code="46" name="Net-(U2-PadIO)">
+      <node ref="U2" pin="IO"/>
+    </net>
+    <net code="47" name="Net-(U2-PadNC)">
+      <node ref="U2" pin="NC"/>
+    </net>
+    <net code="48" name="/D10(SD_CS)">
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="D10"/>
+    </net>
+    <net code="49" name="/D9(FONA_RI)">
+      <node ref="U2" pin="D9"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="50" name="/D8(FONA_RTS)">
+      <node ref="U2" pin="D8"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="51" name="D2(OBD2_TX)">
+      <node ref="U2" pin="D2"/>
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="52" name="D3(OBD2_RX)">
+      <node ref="U8" pin="13"/>
+      <node ref="R32" pin="2"/>
+      <node ref="U2" pin="D3"/>
+    </net>
+    <net code="53" name="Net-(J3-Pad15)">
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="54" name="Net-(J3-Pad16)">
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="55" name="Net-(J3-Pad14)">
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="56" name="Net-(J3-Pad13)">
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="57" name="Net-(R25-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U8" pin="27"/>
+    </net>
+    <net code="58" name="Net-(LED4-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="LED4" pin="1"/>
+    </net>
+    <net code="59" name="Net-(LED3-Pad1)">
+      <node ref="R29" pin="1"/>
+      <node ref="LED3" pin="1"/>
+    </net>
+    <net code="60" name="Net-(LED2-Pad1)">
+      <node ref="LED2" pin="1"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="61" name="Net-(R31-Pad2)">
+      <node ref="U8" pin="21"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R30-Pad2)">
+      <node ref="U8" pin="20"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="64" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="65" name="Net-(Q2-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="66" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="67" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="69" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="70" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="71" name="/Vehicle Datalogger/SLEEP">
+      <node ref="U8" pin="9"/>
+      <node ref="W2" pin="1"/>
+    </net>
+    <net code="72" name="/Vehicle Datalogger/~ISO_RX">
+      <node ref="U8" pin="8"/>
+      <node ref="U7" pin="14"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="73" name="/Vehicle Datalogger/PWM_RX">
+      <node ref="U7" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="74" name="/Vehicle Datalogger/~VPW_RX">
+      <node ref="R18" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="75" name="/Vehicle Datalogger/~ISO_L_TX">
+      <node ref="U8" pin="23"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="76" name="/Vehicle Datalogger/~ISO_K_TX">
+      <node ref="R9" pin="2"/>
+      <node ref="U8" pin="22"/>
+    </net>
+    <net code="77" name="/Vehicle Datalogger/J1850BUS-_TX">
+      <node ref="U8" pin="4"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="78" name="/Vehicle Datalogger/J1850BUS+_TX">
+      <node ref="Q3" pin="G"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="79" name="/Vehicle Datalogger/~PWR_CTRL">
+      <node ref="U8" pin="15"/>
+      <node ref="W3" pin="1"/>
+    </net>
+    <net code="80" name="/Vehicle Datalogger/CAN_RX">
+      <node ref="U8" pin="11"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="81" name="/Vehicle Datalogger/OBD_RX_STATUS/PGC">
+      <node ref="R29" pin="2"/>
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="82" name="/Vehicle Datalogger/RST_NUM">
+      <node ref="R28" pin="2"/>
+      <node ref="U8" pin="18"/>
+    </net>
+    <net code="83" name="/Vehicle Datalogger/CAN_TX">
+      <node ref="R33" pin="2"/>
+      <node ref="U8" pin="12"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="84" name="/Vehicle Datalogger/RESET">
+      <node ref="U8" pin="26"/>
+      <node ref="R24" pin="2"/>
+      <node ref="W1" pin="1"/>
+    </net>
+    <net code="85" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="86" name="Net-(U8-Pad6)">
+      <node ref="U8" pin="6"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="87" name="Net-(LED5-Pad1)">
+      <node ref="LED5" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="88" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="89" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="90" name="Net-(D2-Pad2)">
+      <node ref="Q4" pin="S"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="91" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="92" name="Net-(Q6-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="93" name="Net-(R7-Pad2)">
+      <node ref="U7" pin="5"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="94" name="Net-(Q3-PadD)">
+      <node ref="R13" pin="2"/>
+      <node ref="Q4" pin="G"/>
+      <node ref="Q3" pin="D"/>
+    </net>
+    <net code="95" name="Net-(U9-Pad5)">
+      <node ref="U9" pin="5"/>
+    </net>
+  </nets>
+</export>
