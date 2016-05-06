@@ -1,0 +1,12 @@
+Reference|Value|Footprint|Count|Datasheet|Package|MF_Name|MF_PN|S1_Name|S1_PN|Description|Verified
+U1;U2;U3;U4|HOLE|Wickerlib:ARDUINO-MOUNTING-HOLE|4|https://www.adafruit.com/products/50|ARDU-101SHIELD|Arduino|101|Adafruit|50|ARDUINO 101|Not Verified
+U5|ARDUINO-101-SHIELD|Wickerlib:ARDUINO-101-SHIELD|1|https://www.adafruit.com/products/3033|ARDU-101SHIELD|Arduino|UNO R3|Adafruit|50|ARDUINO 101 SHIELD|Not Verified
+J1|CONN-SD-CARD-PUSH-PULL-R/A-SMD|Wickerlib:SD_Holder_FullSize|1|http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2041021&DocType=Customer+Drawing&DocLang=English|SD_Holder_FullSize|TE Conn|2041021-4|Digikey|A101492CT-ND|CONN SD CARD PUSH-PULL R/A SMD|Not Verified
+J2|FONA808-GPS|Wickerlib:Pin_Header_Straight_1x16|1|https://www.adafruit.com/products/2542|FONA808-GPS|Adafruit|FONA808+GPS|Adafruit|2542|ADAFRUIT FONA 808 + GPS|Not Verified
+J3|OBDII-UART|Wickerlib:Pin_Header_Straight_1x06|1|https://cdn.harwin.com/pdfs/60page140.pdf|Pin_Header_Straight_1x06|Harwin|M20-7820642|Digikey|952-1808-ND|HEADER FEMALE 6POS TH 1x06 0.1”|Not Verified
+W2|A0|Wickerlib:TestHole_1x01|1||||||||
+W4|A4|Wickerlib:TestHole_1x01|1||||||||
+W6|A5|Wickerlib:TestHole_1x01|1||||||||
+W1|D0|Wickerlib:TestHole_1x01|1||||||||
+W3|D1|Wickerlib:TestHole_1x01|1||||||||
+W5|D4|Wickerlib:TestHole_1x01|1||||||||
