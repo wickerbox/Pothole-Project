@@ -461,7 +461,7 @@ U 1 1 572B2F2A
 P 1950 1125
 F 0 "R12" H 2000 1175 50  0000 L CNN
 F 1 "510 1/2W" H 2000 1075 50  0000 L CNN
-F 2 "2010" H 1950 775 50  0001 C CIN
+F 2 "Wickerlib:2010" H 1950 775 50  0001 C CIN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf" H 1950 1125 5   0001 C CNN
 F 4 "2010" H 1950 775 50  0001 C CIN "Package"
 F 5 "Rohm Semi" H 1950 775 50  0001 C CIN "MF_Name"
@@ -537,7 +537,7 @@ U 1 1 572B3D90
 P 3625 1150
 F 0 "R21" H 3675 1200 50  0000 L CNN
 F 1 "510 1/2W" H 3675 1100 50  0000 L CNN
-F 2 "2010" H 3625 800 50  0001 C CIN
+F 2 "Wickerlib:2010" H 3625 800 50  0001 C CIN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf" H 3625 1150 5   0001 C CNN
 F 4 "2010" H 3625 800 50  0001 C CIN "Package"
 F 5 "Rohm Semi" H 3625 800 50  0001 C CIN "MF_Name"
@@ -1467,7 +1467,7 @@ U 1 1 572CAD84
 P 2375 7125
 F 0 "U7" H 2400 7250 50  0000 L CNN
 F 1 "LM339PWR" H 2400 7000 50  0000 L CNN
-F 2 "Wickerlib:UNDEFINED" H 2375 6775 50  0001 C CIN
+F 2 "Wickerlib:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2375 6775 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm139a.pdf" H 2375 7125 5   0001 C CNN
 F 4 "UNDEFINED" H 2375 6775 50  0001 C CIN "Package"
 F 5 "TI" H 2375 6775 50  0001 C CIN "MF_Name"
@@ -1485,7 +1485,7 @@ U 2 1 572CC979
 P 2650 6075
 F 0 "U7" H 2625 6250 50  0000 L CNN
 F 1 "LM339PWR" H 2625 5900 50  0000 L CNN
-F 2 "Wickerlib:UNDEFINED" H 2650 5725 50  0001 C CIN
+F 2 "Wickerlib:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2650 5725 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm139a.pdf" H 2650 6075 5   0001 C CNN
 F 4 "UNDEFINED" H 2650 5725 50  0001 C CIN "Package"
 F 5 "TI" H 2650 5725 50  0001 C CIN "MF_Name"
@@ -1503,7 +1503,7 @@ U 3 1 572CD24F
 P 2650 2425
 F 0 "U7" H 2625 2600 50  0000 L CNN
 F 1 "LM339PWR" H 2625 2250 50  0000 L CNN
-F 2 "Wickerlib:UNDEFINED" H 2650 2075 50  0001 C CIN
+F 2 "Wickerlib:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2650 2075 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm139a.pdf" H 2650 2425 5   0001 C CNN
 F 4 "UNDEFINED" H 2650 2075 50  0001 C CIN "Package"
 F 5 "TI" H 2650 2075 50  0001 C CIN "MF_Name"
