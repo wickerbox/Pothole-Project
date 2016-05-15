@@ -5,4 +5,4 @@ This shield is heavily based on the OBDII-UART adapter board from Sparkfun and S
 
 ### Bill of Materials
 
-<img src="v1.0-bom.png">
+<img src="v1.0bom.png">
