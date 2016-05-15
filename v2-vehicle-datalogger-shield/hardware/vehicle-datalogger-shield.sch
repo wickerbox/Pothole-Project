@@ -604,10 +604,10 @@ F 10 "Not Verified" H 5000 1200 50  0001 C CIN "Verified"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP-CER-1UF-25V-X7R-0805 C2
+L CAP-CER-1UF-25V-X7R-0805 C3
 U 1 1 57295FB5
 P 5475 1550
-F 0 "C2" H 5575 1600 50  0000 L CNN
+F 0 "C3" H 5575 1600 50  0000 L CNN
 F 1 "1uF" H 5575 1525 50  0000 L CNN
 F 2 "Wickerlib:0805" H 5475 1200 50  0001 C CIN
 F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL21B104KACNNNC.pdf" H 5475 1550 5   0001 C CNN
@@ -968,7 +968,7 @@ U 1 1 572D1D59
 P 3200 1325
 F 0 "D1" H 3175 1225 50  0000 L CNN
 F 1 "MBRA140" H 3025 1425 50  0000 L CNN
-F 2 "Wickerlib:SMA_Standard" H 3200 975 50  0001 C CIN
+F 2 "Wickerlib:Diode_SMA" H 3200 975 50  0001 C CIN
 F 3 "http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf" H 3200 1325 5   0001 C CNN
 F 4 "SMA_Standard" H 3200 975 50  0001 C CIN "Package"
 F 5 "Vishay" H 3200 975 50  0001 C CIN "MF_Name"
