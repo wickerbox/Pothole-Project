@@ -1,4 +1,4 @@
-update=Tue 03 May 2016 12:21:17 PM PDT
+update=Mon 16 May 2016 12:58:03 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,11 +25,6 @@ version=1
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=/home/wicker/proj/kicad/
-[eeschema/libraries]
-LibName1=/home/wicker/proj/wbox/wickerlib/kicad-libraries/wickerlib
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +35,8 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=/home/wicker/proj/kicad/
+[eeschema/libraries]
+LibName1=/home/wicker/proj/wbox/wickerlib/libraries/wickerlib
